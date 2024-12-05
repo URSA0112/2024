@@ -13,6 +13,7 @@
 
     body {
         margin: 0;
+        text-align: center;
     }
 
 
@@ -25,19 +26,13 @@
         width: 100%;
         height: 56px;
         margin: 0;
-        justify-content: space-between;
-        align-self: center;
-
-
-
 
     }
 
     .logo {
-        width: 10px;
+        width: 20%;
         margin: 12px 20px 10px 20px;
         height: 56px;
-
 
     }
 
@@ -46,10 +41,13 @@
         display: flex;
         gap: 30px;
         font-size: 20px;
+        justify-content: center;
         align-self: center;
-        margin: 40px 20px 10px 20px;
+        margin: 0;
+        padding: 40px 20px 10px 20px;
         color: rgb(255, 255, 255);
         height: 56px;
+        width: 100%;
 
     }
 
@@ -59,14 +57,14 @@
         font-weight: 500;
         font-size: 16px;
         font-family: Avenir;
-
-
-
     }
 
-    section {
+    .headerspace{width: 20%;}
+
+    .page1 {
         background-image: url(image/Solar.jpg);
         background-size: cover;
+        width: 100%;
         height: 100vh;
         margin: 0;
     }
@@ -85,7 +83,8 @@
     }
 
 
-    p { text-decoration: underline;
+    p {
+        text-decoration: underline;
         margin: 0;
         justify-self: center;
         align-self: center;
@@ -137,18 +136,19 @@
         height: 56px;
         border-radius: 4px;
         font-size: 16px;
-        border:0;
+        border: 0;
     }
-    .bootoom{align-self: flex-end;}
 
-
-
-
+    .bootoom {
+        align-self: flex-end;
+    }
 </style>
 
 <body>
+
     <header>
-        <div class="logo"> <img src="image/Tesla Logo.svg" /></div>
+
+         <div class="logo"> <img src="image/Tesla Logo.svg" /></div>
         <ul>
             <li><a>Vehicles</a>
             </li>
@@ -162,54 +162,60 @@
             </li>
             </li>
         </ul>
-        </div>
-        <div></div>
 
+        <div class="headerspace"></div>
     </header>
-    <section class="1">
+
+    <section class="page1">
+       
         <h1>Solar Panels</h1>
         <p>Schedule a Virtual Consultation </p>
+
         <div class="buttonbox">
+
             <button class="white">Order Now</button>
             <button class="black">Learn More</button>
         </div>
     </section>
- <section style="background-image: url(image/tesla\ 1.jpg);">
-    <h1>Brand New Model 3</h1>
-    <p>Lease starting at $329/month</p>
-    <div class="buttonbox">
-        <button class="white">Custom Order </button>
-        <button class="black">demo Drive</button>
- </section>
+    <section style="background-image: url(image/tesla\ 1.jpg);">
+        <h1>Brand New Model 3</h1>
+        <p>Lease starting at $329/month</p>
+        <div class="buttonbox">
+            <button class="white">Custom Order </button>
+            <button class="black">demo Drive</button>
+    </section>
 
- <section style="background-image: url(image/tesla2.jpg);"> <h1>Model X</h1>
-    <p>From $86,590</p>
-    <p>After Federal Tax Credit & Est. Gas Savings</p>
-    <div class="buttonbox">
-        <button class="white">Custom Order </button>
-        <button class="black">demo Drive</button>
- 
- </section>
+    <section style="background-image: url(image/tesla2.jpg);">
+        <h1>Model X</h1>
+        <p>From $86,590</p>
+        <p>After Federal Tax Credit & Est. Gas Savings</p>
+        <div class="buttonbox">
+            <button class="white">Custom Order </button>
+            <button class="black">demo Drive</button>
 
-<section style="background-image:url(image/tesla3.jpg) ;"> <h1>Brand New Model 3</h1>
-    <p>Lease starting at $329/month</p>
-    <div class="buttonbox">
-        <button class="white">Order Now</button>
-        <button class="black">Learn More</button>
-        <p class="boottoom">*Excludes taxes and fees with price subject to change. Available in select states. </p>
-   
-</section>
+    </section>
 
-<section>
-    <video control loop style="display:contents;"> <h1>Brand New Model 3</h1>
+    <section style="background-image:url(image/tesla3.jpg) ;">
+        <h1>Brand New Model 3</h1>
         <p>Lease starting at $329/month</p>
         <div class="buttonbox">
             <button class="white">Order Now</button>
             <button class="black">Learn More</button>
-<source src="image/teslavideo.mp4">
+            <p class="boottoom">*Excludes taxes and fees with price subject to change. Available in select states. </p>
 
-    </video>></video>
-</section>
+    </section>
+
+    <section>
+        <video control loop style="display:contents;">
+            <h1>Brand New Model 3</h1>
+            <p>Lease starting at $329/month</p>
+            <div class="buttonbox">
+                <button class="white">Order Now</button>
+                <button class="black">Learn More</button>
+                <source src="image/teslavideo.mp4">
+
+        </video>></video>
+    </section>
 
 
 </body>
