@@ -69,15 +69,15 @@ section {
     text-align: center;
 }
 /* ALL PAGE BACKGROUND IMAGE */
-.page1{background-image:url(image/Solar.jpg);}
-.page2{background-image: url(image/page\ 2.jpg);}
-.page3{background-image: url(image/page3.jpg);}
-.page4{background-image:url(image/page4.jpg);}
-.page5{background-image:url(image/tesla3.jpg);}
-.page6{background-image:url(image/tesla2.jpg);}
-.page8{background-image: url(image/tesla\ 1.jpg);}
-.page9{background-image: url(image/tesla9.jpg);}
-.page10{background-image: url(image/page10.jpg);}
+.page1{background-image:url(tesla/Solar.jpg);}
+.page2{background-image: url(tesla/page\ 2.jpg);}
+.page3{background-image: url(tesla/page3.jpg);}
+.page4{background-image:url(tesla/page4.jpg);}
+.page5{background-image:url(tesla/tesla3.jpg);}
+.page6{background-image:url(tesla/tesla2.jpg);}
+.page8{background-image: url(tesla/tesla\ 1.jpg);}
+.page9{background-image: url(tesla/tesla9.jpg);}
+.page10{background-image: url(tesla/page10.jpg);}
 
 .videocontainer{position: relative; 
 overflow: hidden;
