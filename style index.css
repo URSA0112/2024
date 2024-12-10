@@ -1,0 +1,153 @@
+*{ font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+   
+
+
+header {display: flex;
+    width: 100%;
+    height: 44px;
+    background: rgba(245, 245, 247, 0.80);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+.shoplink { margin: 0;
+    
+    width: 100%;
+    height: 52.58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D1D1F;
+    color: #1D1D1F;
+    text-align: center;
+  
+  
+}
+nav {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 19.14px;
+
+}
+
+a {
+    height: 44px;
+}
+.head-space {width: 100%;
+    height: 44px;
+    display: flex;}
+.header-text { padding-top: 12px;
+  
+}
+
+/* BACKGROUND IMAGES */
+.top {
+    background-image: url(images/apple-sec-1.jpeg)
+}
+
+.middle {
+    background-image: url(images/apple-sec-2.jpeg);
+}
+
+.bottom {
+    background-image: url(images/apple-sec-3.jpeg);
+}
+
+.ipad-air {
+    background-image: url(images/apple-sec-4.1.jpeg);
+}
+
+.airpod2 {
+    background-image: url(images/apple-sec-4.2.jpeg);
+}
+
+.iwatch {
+    background-image: url(images/apple-sec-5.1.jpeg);
+}
+
+.macbook-air {
+    background-image: url(images/apple-sec-5.2.jpeg)
+}
+
+.trade-in {
+    background-image: url(images/apple-sec-6.1.jpeg);
+}
+
+.card {
+    background-image: url(images/apple-sec-6.2.jpeg);
+}
+
+.movie-img1 {
+    background-image: url(images/movie-1.jpg);
+}
+
+.movie-img2 {
+    background-image: url(images/movie-2.jpg);
+}
+
+.movie-img3 {
+    background-image: url(images/movie-3.jpg);
+}
+
+
+/* END IMAGE */
+
+section {
+    background-size: cover;
+    background-position: center;
+}
+
+.main-page {
+    width: 100%;
+    height: 692px;
+    text-align: center;
+}
+
+.splited-page {
+    display: flex;
+}
+
+.minor-page {
+    width: 50%;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+}
+
+.apple-tv.container{
+    width: 100%;
+    height: 667px;
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    position: relative;
+}
+
+.movies {
+    min-width: 1250px;
+    height: 667px;
+}
+
+.apple-plus.container {
+width: 100%;
+height: 236px;
+gap: 15px;
+}
+
+.plus{min-width: 417px;
+height: 236px;}
