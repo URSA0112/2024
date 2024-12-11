@@ -5,70 +5,6 @@
     font-weight: 200;
 }
 
-body {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background: #FFF;
-}
-
-
-
-header {
-    display: flex;
-    width: 100%;
-    height: 44px;
-    background: rgba(245, 245, 247, 0.80);
-    backdrop-filter: blur(10px);
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    font-size: 13px;
-}
-
-.donate {
-    margin: 0;
-    width: 100%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1D1D1F;
-    color: #1D1D1F;
-    text-align: center;
-    font-size: 14px;
-}
-
-.shoplink {font-size: 11px;  
-padding-top: 20px;   }
-
-nav {
-    width: 100%;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    gap: 19.14px;
-   
-
-}
-
-a {
-    height: 44px;
-}
-
-.head-space {
-    width: 100%;
-    height: 44px;
-    display: flex;
-}
-
-.header-text {
-    padding-top: 12px;
-
-}
-
 /* BACKGROUND IMAGES */
 .top {
     background-image: url(./apple\ img/apple-sec-1.jpeg)
@@ -143,7 +79,74 @@ a {
 
 /* END IMAGE */
 
-section {margin-top: 10px;
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background: rgba(245, 245, 247, 0.80);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.donate {
+    margin: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D1D1F;
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 14px;
+}
+
+.shoplink {
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 19.14px;
+
+
+}
+
+a {
+    height: 44px;
+}
+
+.head-space {
+    width: 100%;
+    height: 44px;
+    display: flex;
+}
+
+.header-text {
+    padding-top: 12px;
+
+}
+
+section {
+    margin-top: 10px;
     background-size: cover;
     background-position: center;
 }
@@ -161,9 +164,8 @@ section {margin-top: 10px;
     justify-content: center;
 }
 
-.text-container-bottom {
-    position: absolute;
-    top: 60%;
+.text-container-bottom {padding-top: 400px;
+   
 }
 
 .text-top {
@@ -268,7 +270,12 @@ button {
 
 
 }
-.minor-page-container{width: 100%; display: flex;}
+
+.minor-page-container {
+    width: 100%;
+    display: flex;
+}
+
 .minor-page {
     width: 50%;
     height: 580px;
@@ -315,12 +322,26 @@ button {
     margin: 20px 206px 20px 15px;
 }
 
-@media screen and (max-width: 768px) 
-{
-section.main-page.top { background-image:url(././apple\ img/sec-1-display768.jpg);}
-section.main-page.middle {background-image: url(././apple\ img/sec-2-display768.jpg);}
-section.main-page.bottom {background-image: url(././apple\ img/sec-3-display768.jpg);}
-.page-4{background-image: url(././apple\ img/sec-4-display\ 768.jpg);}
-.minor-page-container{display: none;}
+@media screen and (max-width: 768px) { 
+   
 
-}
+    section.main-page.top {
+        background-image: url(././apple\ img/sec-1-display768.jpg);
+    }
+
+    section.main-page.middle {
+        background-image: url(././apple\ img/sec-2-display768.jpg);
+    }
+
+    section.main-page.bottom {
+        background-image: url(././apple\ img/sec-3-display768.jpg);
+    }
+
+    .page-4 {
+        background-image: url(././apple\ img/sec-4-display\ 768.jpg);
+    }
+            
+
+    }
+
+
