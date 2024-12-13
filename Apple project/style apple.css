@@ -161,13 +161,14 @@ section {
     flex-direction: column;
 }
 
-.text-container-bottom{
+.text-container-bottom {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 50px;}
-   
+    padding: 50px;
+}
+
 .text-top {
     margin: 0;
     border: 0;
@@ -194,13 +195,23 @@ section {
     letter-spacing: 0.196px;
 }
 
+.text-first {
+    font-size: 36.42px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.text-second {
+    margin: 0;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
 .btn-container {
     margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 10px;
-
-
 }
 
 button {
@@ -218,13 +229,11 @@ button {
 }
 
 .splited-page button {
-    width: 104.25px;
-    height: 36px;
+    width: 90px;
+    height: 38px;
     color: #FFF;
     text-align: center;
-    font-size: 13.891px;
-
-    letter-spacing: -0.224px;
+    font-size: 12px;
 }
 
 .bigbtn {
@@ -234,11 +243,18 @@ button {
     padding: 12px 21.8px 12px 22px;
     justify-content: center;
     flex-shrink: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .smallbtn {
+    margin: 0;
     background: none;
     border: 1px solid;
+}
+
+.splited-page .smallbtn {
+    width: 3px;
 }
 
 .border-blue-btn {
@@ -255,9 +271,17 @@ button {
     color: #2997FF;
 }
 
+#solo-long-button {
+    width: 130px;
+}
+
 .blue {
 
     background: #0071E3;
+    color: white;
+}
+
+.airpod2 {
     color: white;
 }
 
@@ -267,13 +291,12 @@ button {
 
 .splited-page {
     display: flex;
-
-
 }
 
 .minor-page-container {
     width: 100%;
     display: flex;
+
 }
 
 .minor-page {
@@ -282,6 +305,8 @@ button {
     background-size: cover;
     background-position: center;
     margin: 10px;
+    padding-top: 30px;
+    gap: 15px;
 
 }
 
@@ -337,10 +362,6 @@ button {
         background-image: url(././apple\ img/sec-3-display768.jpg);
     }
 
-    .page-4 {
-        background-image: url(././apple\ img/sec-4-display\ 768.jpg);
-    }
-
     .text-container-top {
         height: 100%;
         display: flex;
@@ -348,15 +369,46 @@ button {
         justify-content: end;
         padding: 50px;
     }
+
     .text-container-bottom {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: start;
         padding: 0%;
-        }
+    }
 
+    .page-4 {
+        background-image: url(././apple\ img/sec-4-display\ 768.jpg);
+        height: 667px;
+        background-size: cover;
+    }
 
+    .ipad-air,
+    .airpod2 {
+        display: none;
+    }
 
+    .page-5 {
+        background-image: url(apple\ img/sec-5-display768.jpg);
+        height: 667px;
+        background-size: cover;
+    }
+
+    .iwatch,
+    .macbook-air {
+        display: none;
+    }
+
+    .page-6 {
+        background-image: url(apple\ img/sec-6-display768.jpg);
+        height: 667px;
+        background-size: cover;
+    }
+
+    .trade-in,
+    .card {
+        display: none;
+    }
 
 }
