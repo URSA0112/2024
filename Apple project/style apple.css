@@ -77,7 +77,6 @@
     background: #EBB799;
 }
 
-
 /* END IMAGE */
 
 
@@ -167,10 +166,7 @@ section {
     margin-bottom: 8px;
 }
 
-.splited-page {
-    margin: 0;
 
-}
 
 .text-container-bottom {
     /* PAGE 3  */
@@ -216,8 +212,9 @@ section {
 
 .text-second {
     margin: 0;
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 6px;
+    font-weight: 300;
 }
 
 .btn-container {
@@ -241,12 +238,12 @@ button {
     letter-spacing: -0.374px;
 }
 
-.splited-page button {
+.minor-page button {
     width: 90px;
     height: 38px;
     color: #FFF;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .bigbtn {
@@ -266,9 +263,6 @@ button {
     border: 1px solid;
 }
 
-.splited-page .smallbtn {
-    width: 3px;
-}
 
 .border-blue-btn {
     border-color: #2997FF;
@@ -282,10 +276,15 @@ button {
 
 .minor-page .smallbtn {
     color: #2997FF;
+    width: 3px;
 }
 
 #solo-long-button {
     width: 130px;
+}
+
+#applynow {
+    width: 90px;
 }
 
 .blue {
@@ -302,10 +301,6 @@ button {
     color: black;
 }
 
-.splited-page {
-
-    margin: 0;
-}
 
 .minor-page-container {
     width: 100%;
@@ -314,6 +309,7 @@ button {
     grid-template-columns: repeat(2, 1fr);
     margin: 0;
     gap: 15px;
+
 
 }
 
@@ -337,7 +333,6 @@ button {
 }
 
 .apple-tv.container {
-   
     margin-top: 20px;
     width: 100%;
     height: 667px;
@@ -347,19 +342,19 @@ button {
     position: relative;
 }
 
-.movies {
-    min-width: 1250px;
+.movies {background-size: cover;
+    min-width: 1265px;
     height: 667px;
 }
 
 .apple-plus.container {
-    display: flex;
     width: 100%;
     height: 236px;
     gap: 7.5px;
     margin-top: 15px;
     overflow: auto;
     will-change: auto;
+    display: flex;
 }
 
 .plus {
@@ -374,7 +369,21 @@ button {
     margin: 20px 206px 20px 15px;
 }
 
+.smallscreen {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
+    .bigscreen {
+        display: none;
+    }
+
+    .smallscreen {
+        display: flex;
+        flex-direction: column;
+        height: 580px;
+    }
+
     section.main-page.top {
         background-image: url(././apple\ img/sec-1-display768.jpg);
     }
@@ -403,35 +412,74 @@ button {
         padding: 0%;
     }
 
-    .page-4 {
+    .ipad-air {
         background-image: url(././apple\ img/sec-4-display\ 768.jpg);
-        height: 500px;
         background-size: cover;
+
     }
 
+    .airpod4 {
+        margin: 0;
+        color: white;
+        padding-top: 320px;
+    }
 
-    .page-5 {
+    .iwatch {
         background-image: url(apple\ img/sec-5-display768.jpg);
-        height: 500px;
         background-size: cover;
+
+    }
+
+    .business {
+        background-image: url(apple\ img/sec-7-display768.jpg);
+        background-size: cover;
+        padding-top: 100px;
+
+    }
+
+    .career {
+        background-image: url(apple\ img/sec-8-display768.jpg);
+        padding-top: 350px;
+    }
+
+    .card {
+        background-image: url(apple\ img/sec-8-display768.jpg);
+    }
+
+    .minor-page-container {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
     }
 
 
-    .page-6 {
-        background-image: url(apple\ img/sec-6-display768.jpg);
-        height: 500px;
-        background-size: cover;
+    .apple-tv.container {
+        margin-top: 20px;
+        width: 100%;
+        height: 600px;
+        overflow: auto;
+        gap: 10px;
+
     }
 
+    .movies {background-size: cover;
+        background-position: center;
+        min-width: 300px;
+        height: 600px;
+    }
 
+    .tv-1 {
+        background-image: url(apple\ img/tv-1.jpg);
 
-.minor-page-container {
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(1, auto);
+    }
+    .tv-2 {
+        background-image: url(apple\ img/tv-2.jpg);
+    }
+.tv-3{background-image: url(apple\ img/tv-3.jpg);}
+
+.apple-plus.container{
+    min-width: 300px;
+    height: 190px;
+    background-size: cover;
 }
-
-
-
-
 }
