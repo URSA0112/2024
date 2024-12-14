@@ -137,6 +137,7 @@ a {
     padding-top: 12px;
 
 }
+
 /* BODY START */
 
 body {
@@ -161,9 +162,15 @@ section {
     display: flex;
     flex-direction: column;
 }
-.main-page.bottom{margin-bottom:  8px;}
 
-.splited-page {margin: 0;}
+.main-page.bottom {
+    margin-bottom: 8px;
+}
+
+.splited-page {
+    margin: 0;
+
+}
 
 .text-container-bottom {
     /* PAGE 3  */
@@ -173,6 +180,7 @@ section {
     justify-content: end;
     padding: 50px;
 }
+
 /* TEXT */
 .text-top {
     margin: 0;
@@ -295,37 +303,42 @@ button {
 }
 
 .splited-page {
-    display: flex;
+
     margin: 0;
 }
 
 .minor-page-container {
     width: 100%;
-    display: flex; 
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0;
+    gap: 15px;
 
 }
 
 .minor-page {
-    width: 50%;
+    width: 100%;
     height: 580px;
     background-size: cover;
     background-position: center;
-    margin: 5px;
     padding-top: 40px;
-   
+
 
 }
-.airpod2 { display:flex;
+
+.airpod2 {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     padding-bottom: 40px;
- 
+
 }
 
 .apple-tv.container {
-    margin: 10px;
+   
+    margin-top: 20px;
     width: 100%;
     height: 667px;
     display: flex;
@@ -362,8 +375,6 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-
-
     section.main-page.top {
         background-image: url(././apple\ img/sec-1-display768.jpg);
     }
@@ -394,35 +405,33 @@ button {
 
     .page-4 {
         background-image: url(././apple\ img/sec-4-display\ 768.jpg);
-        height: 667px;
+        height: 500px;
         background-size: cover;
     }
 
-    .ipad-air,
-    .airpod2 {
-        display: none;
-    }
 
     .page-5 {
         background-image: url(apple\ img/sec-5-display768.jpg);
-        height: 667px;
+        height: 500px;
         background-size: cover;
     }
 
-    .iwatch,
-    .macbook-air {
-        display: none;
-    }
 
     .page-6 {
         background-image: url(apple\ img/sec-6-display768.jpg);
-        height: 667px;
+        height: 500px;
         background-size: cover;
     }
 
-    .trade-in,
-    .card {
-        display: none;
-    }
+
+
+.minor-page-container {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+
+
 
 }
