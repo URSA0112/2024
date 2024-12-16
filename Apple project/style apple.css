@@ -482,4 +482,5 @@ button {
     height: 190px;
     background-size: cover;
 }
+nav{display: flex; justify-content: space-between;}
 }
