@@ -23,46 +23,55 @@ header {
     position: fixed;
     margin: 0;
     padding: 0;
-    font-size: 13px;
-}
-
-.nav-text {
-    padding-top: 13px;
+    font-size: 12px;
+    display: none;
 }
 
 nav {
     margin: 0;
+    padding-top: 8px;
     width: 100%;
-    height: 44px;
+    height: 56px;
     display: flex;
     justify-content: center;
-    gap: 19.14px;
+    gap: 40px;
+}
+
+.nav-text {
+    padding-top: 8px;
+}
+
+.nav-icon {
+    margin-top: -10px;
+    width: 16px;
+    height: auto;
 }
 
 .header-bottom-text-container {
-    margin-top: 44px;
-    width: 100%;
-    height: 58px;
+    background-color: aquamarine;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-end;
 }
 
 .text.pay-monthly {
-    
+
     width: 100%;
-    height: 40px;
+    height: 58px;
+    font-size: 14px;
     text-align: center;
-    position: relative;
-    background-color: white;
-    z-index: 1;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .colorful-line {
     width: 100%;
-    height: 40px;
+    height: 30px;
     display: flex;
-    background: linear-gradient(to right, #019FFB, rgb(224, 94, 224), rgb(245, 189, 198), rgb(255, 214, 139), rgb(244, 244, 178));
-    background :linear-gradient(to bottom,rgb(255, 255, 255));
-    filter:blur(15px);
+    background: linear-gradient(to right, #72e1f4, rgb(24, 27, 240), rgb(100, 42, 248), rgb(245, 37, 245), rgb(255, 22, 26), rgb(255, 139, 22), rgb(243, 255, 10));
+
+    filter: blur(20px);
     position: relative;
     z-index: -1;
 }
-
