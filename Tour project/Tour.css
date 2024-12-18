@@ -94,6 +94,7 @@ section {
     height: 150px;
     mix-blend-mode: multiply;    
     animation: carmove 10s infinite;
+    animation-timing-function: linear;
     position: relative;
     z-index: 10;
     margin: 0;
@@ -110,9 +111,6 @@ section {
     70% {left: 90%;top :210px; }
     71% {left:-10%; top: 400px;}
     100% {left :90%; top: 400px;}
-    
-  
-
   }
 
 .box {
@@ -126,6 +124,8 @@ section {
     font-size: 50px;
     color: azure;
     position: relative;
+    border-radius: 40px;
+box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
     
 
 }

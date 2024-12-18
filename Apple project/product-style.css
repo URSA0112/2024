@@ -1,0 +1,68 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background: rgba(245, 245, 247, 0.80);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.nav-text {
+    padding-top: 13px;
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 19.14px;
+}
+
+.header-bottom-text-container {
+    margin-top: 44px;
+    width: 100%;
+    height: 58px;
+}
+
+.text.pay-monthly {
+    
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+.colorful-line {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background: linear-gradient(to right, #019FFB, rgb(224, 94, 224), rgb(245, 189, 198), rgb(255, 214, 139), rgb(244, 244, 178));
+    background :linear-gradient(to bottom,rgb(255, 255, 255));
+    filter:blur(15px);
+    position: relative;
+    z-index: -1;
+}
+
