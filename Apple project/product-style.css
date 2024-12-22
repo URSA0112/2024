@@ -131,7 +131,7 @@ section {
     display: flex;
     align-items: center;
     overflow: auto;
-    background-color: #ffffff;
+    background-color: #f4cccc;
     gap:20px;
 }
 
@@ -141,12 +141,14 @@ section {
     flex-direction: column;
     align-items: center;
     width: 500px;
+    background-color: #72e1f4;
+    border-radius: 16px;
 }
 
 .icon {
     display: flex;
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
 
 }
 

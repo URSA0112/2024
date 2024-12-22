@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <button
+      onclick="console.log(`quantity :  ${cardnum}`);
+      "
+    >
+      show quantity
+    </button>
+
+    <button
+      onclick="
+   cardnum = cardnum + 1
+    console.log(`quantity : ${cardnum}`);
+    "
+    >
+      add to card
+    </button>
+
+    <button onclick="
+    cardnum = cardnum + 2;
+    console.log(`quantity : ${cardnum}`);  
+    ">+2</button>
+    <button onclick="
+    cardnum = 0;
+    console.log(`quantity : ${cardnum}`);
+
+    
+    ">reset</button>
+
+
+    <script>
+      let cardnum = 0;
+
+    </script>
+  </body>
+</html>
