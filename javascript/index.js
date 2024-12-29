@@ -46,19 +46,16 @@
 //}
 //console.log (power(4, 3))
 
-// 7)  prime number finder
+// 7) divider finder
 
-var checknum = 12;
-const startnum = 1;
+var checknum = 9;
+const startnum = 2;
 var result;
 for (var i = startnum; i <= checknum; i++)  
     { 
   var num = 0;
   result = i + num;
   if (checknum % result ==0)
-    console.log(checknum + '/'+ result )
- else ( checknum % result !==0)
-console.log(false)
- 
+    console.log (  checknum + ' / '+result );
 } 
  
