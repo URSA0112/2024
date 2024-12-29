@@ -1,3 +1,4 @@
+
 //  1) 1-10 hurteleh toog hevleh
 //for (var i = 1; i <= 10; i++) {
 // var num = 0;
