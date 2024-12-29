@@ -31,8 +31,17 @@
 //var row = 5;
 //for (var i = row; i >= 0; i--) {
 //  var num = "";
-//  for (var k = 0; k <= i; k++) {
+// for (var k = 0; k <= i; k++) {
 //    num += "0";
 //  }
 //  console.log(num);
 //}
+ 
+// 6) Using first time function.
+//function power(base, exponent) {
+//  var power = 1;
+//  for (var i = 0; i<exponent; i++) {  
+//    power = power * base
+//  }return power;
+//}
+//console.log (power(4, 3))
