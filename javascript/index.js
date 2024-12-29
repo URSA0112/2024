@@ -1,4 +1,3 @@
-
 //  1) 1-10 hurteleh toog hevleh
 //for (var i = 1; i <= 10; i++) {
 // var num = 0;
@@ -37,12 +36,29 @@
 //  }
 //  console.log(num);
 //}
- 
+
 // 6) Using first time function.
 //function power(base, exponent) {
 //  var power = 1;
-//  for (var i = 0; i<exponent; i++) {  
+//  for (var i = 0; i<exponent; i++) {
 //    power = power * base
 //  }return power;
 //}
 //console.log (power(4, 3))
+
+// 7)  prime number finder
+
+var checknum = 12;
+const startnum = 1;
+var result;
+for (var i = startnum; i <= checknum; i++)  
+    { 
+  var num = 0;
+  result = i + num;
+  if (checknum % result ==0)
+    console.log(checknum + '/'+ result )
+ else ( checknum % result !==0)
+console.log(false)
+ 
+} 
+ 
