@@ -37,3 +37,14 @@
 //  }
 //  console.log(num);
 //}
+
+var od ;
+for (var i=5; i>=0; i--){
+     od = '*'
+  
+for (var k=0; k<i; k++) 
+     var od = od+'*'
+    console.log(od)
+}
+ 
+
