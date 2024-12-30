@@ -1,4 +1,3 @@
-
 //  1) 1-10 hurteleh toog hevleh
 //for (var i = 1; i <= 10; i++) {
 // var num = 0;
@@ -32,11 +31,12 @@
 //var row = 5;
 //for (var i = row; i >= 0; i--) {
 //  var num = "";
-//  for (var k = 0; k <= i; k++) {
+// for (var k = 0; k <= i; k++) {
 //    num += "0";
 //  }
 //  console.log(num);
 //}
+
 
 var od ;
 for (var i=5; i>=0; i--){
@@ -46,5 +46,29 @@ for (var k=0; k<i; k++)
      var od = od+'*'
     console.log(od)
 }
+ 
+
+
+// 6) Using first time function.
+//function power(base, exponent) {
+//  var power = 1;
+//  for (var i = 0; i<exponent; i++) {
+//    power = power * base
+//  }return power;
+//}
+//console.log (power(4, 3))
+
+// 7) divider finder
+
+var checknum = 9;
+const startnum = 2;
+var result;
+for (var i = startnum; i <= checknum; i++)  
+    { 
+  var num = 0;
+  result = i + num;
+  if (checknum % result ==0)
+    console.log (  checknum + ' / '+result );
+} 
  
 
