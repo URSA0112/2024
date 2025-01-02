@@ -43,7 +43,6 @@
 //**
 //*
 
-
 // 6) Using first time function.
 //function power(base, exponent) {
 //  var power = 1;
@@ -58,19 +57,49 @@
 //var checknum = 13;
 //const startnum = 2;
 //var result;
-//for (var i = startnum; i <= checknum; i++)  
-//    { 
+//for (var i = startnum; i <= checknum; i++)
+//    {
 //  var num = 0;
 //  result = i + num;
 //  if (checknum % result ==0)
 //    console.log (  checknum + ' / '+result );
-//} 
- 
+//}
 
-for ( var i=0; i<=5; i++){
- var space ='-';
-     for ( var k=0; k <i; k++){
-      space += k+'+';
-        console.log(space)
-     }   
-}
+//function find(target) {
+//  const names = [
+//    "baljan",
+//    "itgel",
+//    "jamiyansuren",
+//    "chingun",
+//    "ursaa",
+//    "ider",
+//    "ariunjargal",
+//  ];
+//  for (var i = 0; i < names.length; i++) {
+//    if (names[i] == target) {
+//      return i ;
+//    }
+//  }
+//}
+//
+//console.log(find('itgel'))
+
+ // n
+//
+//
+
+
+//console.log(max);
+//const nums = [4, 7, 98, 1, 3, 5];
+//const target = 11;
+//for (var i = 0; i < nums.length; i++) {
+//  if (nums[i] + nums[i] == target) {
+//    console.log(nums[i]);
+//  }
+//}
+var power = 1; 
+var exponen = 5;
+var base = 9;
+for (var i = 0;  i < exponen ; i++)
+ {power = base * power
+console.log(power)}
