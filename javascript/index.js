@@ -84,7 +84,7 @@
 //
 //console.log(find('itgel'))
 
- // n
+// n
 //
 //
 
@@ -97,9 +97,17 @@
 //    console.log(nums[i]);
 //  }
 //}
-var power = 1; 
-var exponen = 5;
-var base = 9;
-for (var i = 0;  i < exponen ; i++)
- {power = base * power
-console.log(power)}
+
+
+function twosum(target, nums) {
+    var allchance = [];
+    for (var i = 0; i < nums.length; i++) {
+        for (var j = i + 1; j < nums.length; j++)
+            if (nums[i] + nums[j] === target) {
+                allchance[i] = [nums[i] + ' + ' + nums[j]];
+            }
+    } return (allchance)
+}
+const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
+console.log(twosum(10, nums))
+
