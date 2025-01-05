@@ -99,15 +99,57 @@
 //}
 
 
-function twosum(target, nums) {
+//function twosum(target, nums) {
+//    var allchance = [];
+//    for (var i = 0; i < nums.length; i++) {
+//        for (var j = i + 1; j < nums.length; j++)
+//            if (nums[i] + nums[j] == target) {
+//                allchance[i] = [nums[i] + ' + ' + nums[j]];
+//            }
+//    } return (allchance)
+//}
+//const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
+//console.log(twosum(10, nums))
+
+
+
+//function twosum(nums, target) {
+//    for(var i=0; i<nums.length; i++){
+//        for(var k=i+1; k < nums.length; k++){
+//            if(nums[i]+nums[k]==target){
+//            return [i,k]}
+//        }
+//    }
+//};
+//console.log(twosum([2,7,11,15], 9))
+
+//const nums = [20, 20, 20, 20];
+//const target = 80;
+//var allchance = [];
+//for (var i = 0; i < nums.length; i++) {
+//    for (var k = i + 1; k < nums.length; k++) {
+//        for (var j = k + 1; j < nums.length; j++) {
+//            for (var f = j + 1; f < nums.length; f++) {
+//                if (nums[i] + nums[k] + nums[j] + nums[f] == target) {
+//                    allchance[allchance.length] = [nums[i], nums[k], nums[j], nums[f]]
+//               }
+//            } 
+//        }
+//    }
+//}
+//console.log(allchance) 
+
+function foursum(nums, target) {
     var allchance = [];
     for (var i = 0; i < nums.length; i++) {
-        for (var j = i + 1; j < nums.length; j++)
-            if (nums[i] + nums[j] === target) {
-                allchance[i] = [nums[i] + ' + ' + nums[j]];
+        for (var k = i + 1; k < nums.length; k++) {
+            for (var j = k + 1; j < nums.length; j++) {
+                for (var f = j + 1; f < nums.length; f++) {
+                    if (nums[i] + nums[k] + nums[j] + nums[f] == target) {
+                        allchance[allchance.length] = [nums[i], nums[k], nums[j], +nums[f]]
+                    }  
+                }
             }
-    } return (allchance)
-}
-const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
-console.log(twosum(10, nums))
-
+        }  
+    } return allchance
+} console.log(foursum([1,0,-1,0,-2,2], 0))
