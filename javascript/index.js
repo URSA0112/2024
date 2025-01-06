@@ -84,10 +84,9 @@
 //
 //console.log(find('itgel'))
 
- // n
+// n
 //
 //
-
 
 //console.log(max);
 //const nums = [4, 7, 98, 1, 3, 5];
@@ -97,9 +96,26 @@
 //    console.log(nums[i]);
 //  }
 //}
-var power = 1; 
-var exponen = 5;
-var base = 9;
-for (var i = 0;  i < exponen ; i++)
- {power = base * power
-console.log(power)}
+
+//var a = 1;
+//var b = 0;
+//var c = 2;
+//var max = 0;
+//
+//if (b > a && b > c) {
+//  max = b;
+//} else if (a > b && a > c) {
+//  max = a;
+//} else {
+//  max = c;
+//}
+//console.log(max);
+
+function finder(too) {
+  var isNegative = false;
+  if (too < 0) {
+    isNegative = true;
+  }
+  return 'isNegative  '+ isNegative;
+}
+console.log(finder(-9))
