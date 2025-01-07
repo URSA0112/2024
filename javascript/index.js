@@ -112,13 +112,22 @@
 //console.log(sum)
 
 //Literal
+
+
+
 let person1 = {
-  name: "naraa",
-  age: 20,
-};
+    name: "naraa",
+    age: 20,
+}
 let person2 = {
-  name: " orgil",
-  age: 21,
-};
-console.log(`person1 ${person1.name} 
-${person2.name}`);
+    name: "orgil",
+    age: 21,
+}
+const arr = [person1, person2];
+
+function arr(person1, person2){
+    return console.log(person1.name,person1.age),
+    console.log(person2.name, person2.age)
+}
+
+console.log(arr(person1,person2))
