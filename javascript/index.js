@@ -111,4 +111,14 @@
 //let sum = (a +b)*n/2;
 //console.log(sum)
 
-
+//Literal
+let person1 = {
+  name: "naraa",
+  age: 20,
+};
+let person2 = {
+  name: " orgil",
+  age: 21,
+};
+console.log(`person1 ${person1.name} 
+${person2.name}`);
