@@ -96,9 +96,19 @@
 //    console.log(nums[i]);
 //  }
 //}
-var power = 1; 
-var exponen = 5;
-var base = 9;
-for (var i = 0;  i < exponen ; i++)
- {power = base * power
-console.log(power)}
+
+//sum of odd 1-1000
+//let sum_odd = 0;
+//let nums = 1000;
+//for (let i = 0; i <= nums; i+=3) {
+//    sum_odd += i
+//
+//}console.log(sum_odd)
+
+//let a =3;
+//let b = 999;
+//let n = b/a;
+//let sum = (a +b)*n/2;
+//console.log(sum)
+
+
