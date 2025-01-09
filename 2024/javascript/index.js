@@ -112,19 +112,51 @@
 //console.log(sum)
 
 //Literal
-let person1 = {
-  name: "naraa",
-  age: 20,
-}
-let person2 = {
-  name: "orgil",
-  age: 21,
-}
-const arr = [person1, person2];
+//let person1 = {
+//  name: "naraa",
+//  age: 20,
+//}
+//let person2 = {
+//  name: "orgil",
+//  age: 21,
+//}
+//const arr = [person1, person2];
+//
+//function arr(person1, person2){
+//  return console.log(person1.name,person1.age),
+//  console.log(person2.name, person2.age)
+//}
+//
+//console.log(arr(person1,person2))
 
-function arr(person1, person2){
-  return console.log(person1.name,person1.age),
-  console.log(person2.name, person2.age)
-}
+// CHANGE INDEX POSITION
+//const arr = [2, 4, 5];
+//
+//for (let i = 0; i < arr.length; i++) {
+//  for (let k = i + 1; k < arr.length; k++) {
+//    if (arr[i] < arr[k]) {
+//        let less = arr[i]
+//        let grand = arr[k]
+//         arr[i]= grand
+//         arr[k]= less
+//
+//    }
+//  }
+//}     console.log(arr)
 
-console.log(arr(person1,person2))
+const weather = [
+  {
+    date: "2024-12-26",
+    temp: {current: -18.7, min: -22.9, max: -14.5 },
+
+  },
+  {
+    date: "2025-01-08",
+    temp: { current: -15.6, min: -21.9, max: -9.3 },
+  },];
+ //1)if objects are in array ------2)if primitives in array
+  //OBJECT                         //ARRAY
+  //for (const key in weather) == for(let i = 0; i < arr.length; i++) 
+  //{console.log(key)}         == {console.log(i)}
+  //OUTPUT: 0                     OUTPUT : 0
+  //      : 1                            : 1
