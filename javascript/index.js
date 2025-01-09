@@ -160,3 +160,4 @@ const weather = [
   //{console.log(key)}         == {console.log(i)}
   //OUTPUT: 0                     OUTPUT : 0
   //      : 1                            : 1
+ hello
