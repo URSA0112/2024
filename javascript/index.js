@@ -143,11 +143,11 @@
 //    }
 //  }
 //}     console.log(arr)
-
+//
 //const weather = [
 //  {
 //    date: "2024-12-26",
-//    temp: {current: -18.7, min: -22.9, max: -14.5 },
+//    temp: { current: -18.7, min: -22.9, max: -14.5 },
 //
 //  },
 //  {
@@ -156,25 +156,21 @@
 //  },];
 //1)if objects are in array ------2)if primitives in array
 //OBJECT                         //ARRAY
-//for (const key in weather) == for(let i = 0; i < arr.length; i++)
+//for (const key in weather) == for(let i = 0; i < arr.length; i++) 
 //{console.log(key)}         == {console.log(i)}
 //OUTPUT: 0                     OUTPUT : 0
 //      : 1                            : 1
 
 
-const letters = new flower([1,2,3,4,]);
 
-  console.log()
-
-  const nums = [1,2,3,1];
-
-  const obj = {};
-
-  for (let i = 0; i < nums.length; i++) {
-    if (obj[nums[i]] === undefined) { {1:1, 2:2, 3:3, }
-      obj[nums[i]] = nums[i]
-    } else {
-      return true
-    }
-  }
-return false;
+function check_duplicate(nums){
+  let obj = {};
+  let duplicated= true;
+for (let i = 0; i < nums.length; i++) {
+  if(obj[nums[i]]=== undefined){
+    obj[nums[i]]= duplicated
+    duplicated= false;}
+else duplicated=true;
+}return duplicated}
+  console.log(check_duplicate([1, 2, 3, 1]))
+ 
