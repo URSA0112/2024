@@ -1,3 +1,4 @@
+import chalk from 'chalk'
 //  1) 1-10 hurteleh toog hevleh
 //for (var i = 1; i <= 10; i++) {
 // var num = 0;
@@ -163,14 +164,15 @@
 
 
 
-function check_duplicate(nums){
-  let obj = {};
-  let duplicated= true;
-for (let i = 0; i < nums.length; i++) {
-  if(obj[nums[i]]=== undefined){
-    obj[nums[i]]= duplicated
-    duplicated= false;}
-else duplicated=true;
-}return duplicated}
-  console.log(check_duplicate([1, 2, 3, 1]))
- 
+//function check_duplicate(nums){
+//  let obj = {};
+//  let duplicated= true;
+//for (let i = 0; i < nums.length; i++) {
+//  if(obj[nums[i]]=== undefined){
+//    obj[nums[i]]= duplicated
+//    duplicated= false;}
+//else duplicated=true;
+//}return duplicated}
+//  console.log(check_duplicate([1, 2, 3, 4]))
+// 
+
